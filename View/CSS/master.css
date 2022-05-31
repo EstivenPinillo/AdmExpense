@@ -1,3 +1,137 @@
-body{
-    background-color: azure;
+@font-face {
+    font-family: "Amita";
+    src: url("../../Lib/Fonts/Amita-Regular.ttf");
+    font-size: 1em;
 }
+
+*{
+    font-family: Amita;
+    color: #061A40;
+}
+
+body{
+    background-color: #eef0f2;
+}
+
+/*--------------------------------------------------- Formulario Venta D. START */
+
+.contenedor-form{
+    width: 100%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid #736CED;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 30px;
+    background-color: #FFFFFF;
+}
+
+.title-form{
+    margin: 0px 0px 22px 0px;
+}
+
+.group-btn{
+    margin-top: 10px;
+}
+
+.group-input{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.label, .input{
+    display: inline;
+    align-self: flex-start;
+    margin-bottom: 5px;
+}
+
+.label{
+    cursor: pointer;
+}
+
+.input{
+    width: 100%;
+    height: 30px;
+}
+
+.input:focus-visible{
+    outline: 1px solid #061A40;
+    border-radius: 1px ;
+}
+
+.btn{
+    color: #FFFFFF;
+    background-color: #061A40;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #736CED;
+}
+
+.btn:active{
+    color:  #061A40;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 5px #736CED;
+    text-shadow: 0px 0px 2px #736CED;
+}
+
+/*--------------------------------------------------- Formulario Venta D. END */
+/*----------------------------------------------------------------------------*/
+/*------------------------------------------------- Barra De Navegacion START */
+
+.navegacion{
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.title > h1{
+    display: inline;
+    margin: 0px;
+    font-size: 1.8em;
+    cursor: pointer;
+    text-shadow: 0px 0px 2px #736CED;
+}
+
+.title{
+    border-bottom: 1px solid #736CED;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+    height: 100px;
+}
+
+.opcion-menu > a {
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0px 8px 0px 8px;
+    background-color: #FFFFFF;
+    box-shadow: -1px 1px #736CED;
+}
+
+.opcion-menu > a:hover{
+    background-color: #061A40;
+    color: #FFFFFF;
+}
+
+/*--------------------------------------------------- Barra De Navegacion END */
+/*----------------------------------------------------------------------------*/
+/*------------------------------------------------- Formulario Gasto D. START */
