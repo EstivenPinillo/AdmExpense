@@ -1,3 +1,4 @@
+/*2022-06-01 00:00:00 |      57900.00 | 2022-06-01 18:05:50 | 2022-06-01 18:05:50*/
 @font-face {
     font-family: "Amita";
     src: url("../../Lib/Fonts/Amita-Regular.ttf");
@@ -19,7 +20,7 @@ body{
     width: 100%;
 }
 
-.form{
+.form, .box{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,6 +58,7 @@ body{
 .input{
     width: 100%;
     height: 30px;
+    font-size: 1.2em;
 }
 
 .input:focus-visible{
@@ -71,6 +73,7 @@ body{
     width: 200px;
     border-radius: 5px;
     border: 1px solid #736CED;
+    cursor: pointer;
 }
 
 .btn:active{
@@ -97,7 +100,11 @@ body{
     margin: 0px;
     font-size: 1.8em;
     cursor: pointer;
-    text-shadow: 0px 0px 2px #736CED;
+    text-shadow: 0px 0px 2px #D4C1EC;
+}
+
+.title > h1 > a{
+    text-decoration: none;
 }
 
 .title{
@@ -135,3 +142,110 @@ body{
 /*--------------------------------------------------- Barra De Navegacion END */
 /*----------------------------------------------------------------------------*/
 /*------------------------------------------------- Formulario Gasto D. START */
+
+.block{
+    display: block;
+}
+
+.total{
+    text-align: center;
+}
+
+/*------------------------------------------------- Formulario Gasto D.   END */
+/*----------------------------------------------------------------------------*/
+/*--------------------------------------------------------------- Alert START */
+
+.alert-exit{
+    
+    text-align: center;
+    border: 1px solid #736CED;
+    margin: 10px;
+    background-color: #52D1DC;
+    border-radius: 5px;
+
+}
+
+.alert-negavit{
+
+    text-align: center;
+    border: 1px solid #736CED;
+    margin: 10px;
+    background-color: #6F1A07;
+    border-radius: 5px;
+    color: #FFFFFF;
+
+}
+
+.display-none{
+
+    display: none;
+}
+
+/*----------------------------------------------------------------- Alert END */
+/*----------------------------------------------------------------------------*/
+/*------------------------------------------------------------- Listado START */
+
+.content-list{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid #736CED;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #FFFFFF;
+}
+
+.subcontent-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.element-list{
+
+    border: 1px solid #736CED;
+    box-sizing: border-box;
+    padding: 0px 10px 0px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    
+}
+
+.element-list-button{
+    
+    border-radius: 5px;
+    width:  50%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.button-edit{
+    
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #52D1DC;
+    border: 1px solid #736CED;
+    cursor: pointer;
+
+}
+
+.button-delete{
+    
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #eef0f2;
+    border:1px solid #EE6352;
+    cursor: pointer;
+
+}
+
+/*--------------------------------------------------------------- Listado END */
+/*----------------------------------------------------------------------------*/
